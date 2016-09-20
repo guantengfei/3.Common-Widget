@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittext1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="EditText"
+                android:textColor="#000000"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#00ffea"
+            android:text="Button"
+            android:textColor="#000000"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="西瓜"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:layout_gravity="left"
+            android:layout_alignParentLeft="true" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="苹果"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="TextView1"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="上学"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="放假"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text="TextView2"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</LinearLayout>
